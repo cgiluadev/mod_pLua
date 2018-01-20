@@ -18,7 +18,7 @@ run `make install` or copy mod_plua.so to your Apache 'modules' folder.
 
 ### Windows
 Copy mod_plua.so to your Apache 'modules' folder.
-You may need to copy msvcr100.dll, lua51.dll and/or lua52.dll to you apache2 'bin' folder
+You may need to copy msvcr100.dll, lua51.dll and/or lua52.dll to your apache2 'bin' folder
 
 ## Loading mod_pLua into Apache
 Assuming you have either downloaded the compiled module or compiled it yourself, you can enable it in Apache2 by adding the following line to your apache configuration:

@@ -1760,7 +1760,6 @@ static int lua_setCookie(lua_State *L)
 {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     lua_thread                  *thread;
-    const apr_array_header_t    *fields;
     int                         expires;
     const char *key, *val, *path;
     const char* cookie;

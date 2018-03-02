@@ -117,7 +117,7 @@ static int plua_handler(request_rec *r)
         lua_State   *L;
         /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-        /* Check if state acuisition worked */
+        /* Check if state acquisition worked */
         if (!l) return (HTTP_INTERNAL_SERVER_ERROR);
 
         /* Set up the lua_thread struct and change to the current directory. */
